@@ -1,0 +1,27 @@
+Git Guide 
+
+Step 1: Initialize Git Repository
+git init
+
+Step 2: Add Files to the Staging Area
+(To add specific files:)
+git add <file1> <file2> ...   
+(To add all files:)
+git add .
+
+Step 3: Commit Changes
+git commit -m "Your descriptive commit message here"
+
+Step 4: Create a New Branch (Optional)
+git branch <branch_name>
+
+Step 5: Switch to the Desired Branch
+git checkout <branch_name>
+
+Step 6: Push Changes to the Branch
+git push origin <branch_name>
+git push -u origin <branch_name>
+
+
+View Branches:
+git branch
